@@ -56,7 +56,13 @@ main {
 
 .autos,
 .parts {
-  margin: 0 25px; }
+  margin: 0 25px;
+  text-align: center; }
+  .autos > div,
+  .parts > div {
+    display: inline-block;
+    margin: 0 10px;
+    width: 20%; }
 
 .manu.img-link a img {
   height: 80px;
