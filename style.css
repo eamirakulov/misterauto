@@ -7,6 +7,27 @@ main {
   padding: 50px;
   font-family: "Open Sans", sans-serif;
   color: #4a4949; }
+  main .store-header {
+    overflow: hidden;
+    border-bottom: 4px solid #ff6826; }
+  main .left {
+    width: 20%;
+    float: left; }
+    main .left img {
+      max-width: 150px; }
+  main .right {
+    width: 80%;
+    margin-top: 30px;
+    float: right;
+    text-align: right; }
+    main .right a {
+      color: #4a4949;
+      text-decoration: none;
+      display: inline-block;
+      margin: 0 5px; }
+      main .right a:hover {
+        text-decoration: underline;
+        color: #ff6826; }
   main .slick-prev:before,
   main .slick-next:before {
     color: #ff6826 !important; }

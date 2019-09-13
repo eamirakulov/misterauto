@@ -11,6 +11,32 @@ main
 	font-family: 'Open Sans', sans-serif
 	color: $text
 
+	.store-header
+		overflow: hidden
+		border-bottom: 4px solid $main
+	.left
+		width: 20%
+		float: left
+
+		img
+			max-width: 150px
+
+	.right
+		width: 80%
+		margin-top: 30px
+		float: right
+		text-align: right
+
+		a
+			color: $text
+			text-decoration: none
+			display: inline-block
+			margin: 0 5px
+
+			&:hover
+				text-decoration: underline
+				color: $main
+
 	.slick-prev:before,
 	.slick-next:before
 		color: $main !important
