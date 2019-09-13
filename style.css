@@ -10,13 +10,15 @@ main {
   main .store-header {
     overflow: hidden;
     border-bottom: 4px solid #ff6826; }
-  main .left {
+  main .left,
+  main .center {
     width: 20%;
     float: left; }
-    main .left img {
+    main .left img,
+    main .center img {
       max-width: 150px; }
   main .right {
-    width: 80%;
+    width: 60%;
     margin-top: 30px;
     float: right;
     text-align: right; }
