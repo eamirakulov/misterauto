@@ -15,7 +15,9 @@ main {
     float: left;
     text-align: center; }
     main .center img {
-      max-width: 170px; }
+      max-width: 182px;
+      display: block;
+      margin: 0 auto; }
   main .left {
     width: 20%;
     float: left; }
